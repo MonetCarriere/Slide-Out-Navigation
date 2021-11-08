@@ -8,7 +8,12 @@
     width: 300px;
     height: 100%;
     background: #000;
+    left: -300px;
     
+}
+
+#sidebar.active {
+    left: 0;
 }
 
 #sidebar ul li {
@@ -18,3 +23,16 @@
     padding: 24px 24px;
 }
 
+#sidebar .toggle-btn {
+    position: absolute;
+    top: 30px;
+    left: 330px;
+}
+
+.toggle-btn span {
+    width: 45px;
+    height: 4px;
+    background: #000;
+    display: block;
+    margin-top: 4px;
+}
